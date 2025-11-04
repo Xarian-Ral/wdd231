@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Course Homepage - WDD231" />
+  <meta name="author" content="Xander Wilcox" />
+  <title>Xander Wilcox | WDD 231</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script defer src="scripts/navigation.js"></script>
+  <script defer src="scripts/date.js"></script>
+  <script defer src="scripts/course.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Homepage">
+        <svg width="40" height="40" viewBox="0 0 24 24" role="img" aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="4"></rect>
+        </svg>
+      </a>
+      <span class="site-title">Xander Wilcox</span>
+
+      <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false" aria-label="Open navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="primaryNav" class="primary-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="chamber/">Chamber</a></li>
+          <li><a href="final/">Final</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="maincontent">
+    <h1>Home</h1>
+
+    <section id="intro" class="card">
+      <h2>Welcome</h2>
+      <p>Hullo! I'm Xander Wilcox. And the art below is an illustration of a fictional character of mine, Xarian!</p>
+      <img src="images/Illustration72.png" width="200" />
+    </section>
+
+    <section id="courses" class="card">
+      <h2>Web & Computer Programming Certificate</h2>
+      <div class="controls">
+        <button data-filter="wdd" class="filter-btn">WDD Courses</button>
+        <span class="credits">Credits shown: <strong id="creditsTotal">0</strong></span>
+      </div>
+
+      <div id="coursesList" class="courses-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="more" class="card">
+      <p></p>
+    </section>
+  </main>
+
+      <div class="modified">
+        <p>Last modified: <span id="lastModified">Unknown</span></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
