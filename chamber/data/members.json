@@ -4,7 +4,7 @@
     "address": "123 Main St, Cottonwood, AZ",
     "phone": "(928) 555-1234",
     "website": "https://sunrisecoffee.com",
-    "image": "images/coffee.jpeg",
+    "image": "coffee.jpeg",
     "membership": 3,
     "description": "Locally roasted coffee and pastries served daily."
   },
@@ -13,7 +13,7 @@
     "address": "77 River Rd, Sedona, AZ",
     "phone": "(928) 555-9876",
     "website": "https://canyonoutfitters.com",
-    "image": "images/outfitters.png",
+    "image": "outfitters.png",
     "membership": 2,
     "description": "Guided tours, gear rentals, and adventure trips."
   },
@@ -22,7 +22,7 @@
     "address": "45 Pine Ave, Flagstaff, AZ",
     "phone": "(928) 555-2045",
     "website": "https://mountaintech.com",
-    "image": "images/tech.png",
+    "image": "tech.png",
     "membership": 1,
     "description": "IT and tech support for small businesses."
   },
@@ -31,7 +31,7 @@
     "address": "89 Canyon View, Sedona, AZ",
     "phone": "(928) 555-3345",
     "website": "https://redrockyoga.com",
-    "image": "images/yoga.png",
+    "image": "yoga.png",
     "membership": 2,
     "description": "Daily yoga sessions and wellness retreats."
   },
@@ -40,7 +40,7 @@
     "address": "12 Garden Way, Camp Verde, AZ",
     "phone": "(928) 555-2314",
     "website": "https://desertbloom.com",
-    "image": "images/nursery.png",
+    "image": "nursery.png",
     "membership": 3,
     "description": "Native plants and landscape services."
   },
@@ -49,7 +49,7 @@
     "address": "1 Realty Plaza, Cottonwood, AZ",
     "phone": "(928) 555-7777",
     "website": "https://verdevalleyrealty.com",
-    "image": "images/realty.png",
+    "image": "realty.png",
     "membership": 1,
     "description": "Helping you find the perfect home in the Verde Valley."
   }
